@@ -1,0 +1,42 @@
+
+/* ============================================================
+   🔹 ABOUT SECTION
+============================================================ */
+.about-me {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-section {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.info-section {
+    flex: 1.5;
+    min-width: 280px;
+}
+
+.heading-one {
+    font-size: 48px;
+    color: #7600bc;
+    margin-bottom: 10px;
+}
+
+.about-discription {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}

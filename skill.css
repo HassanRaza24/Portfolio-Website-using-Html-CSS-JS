@@ -1,0 +1,45 @@
+
+/* ============================================================
+   🔹 SKILLS SECTION
+============================================================ */
+.skill-section {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.skill-heading {
+    font-size: 48px;
+    color: #7600bc;
+}
+
+.skill-names {
+    width: 100%;
+    max-width: 1300px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-discription {
+    color: gray;
+    font-size: 14px;
+}

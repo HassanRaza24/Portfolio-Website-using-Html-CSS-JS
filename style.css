@@ -1,0 +1,43 @@
+/* ============================================================
+   🔹 GLOBAL RESET
+============================================================ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+/* ============================================================
+   🔹 MEDIA QUERIES
+============================================================ */
+
+/* Laptop 1200px */
+@media (max-width: 1200px) {
+    .heading-one { font-size: 40px; }
+}
+
+/* Tablet 768px */
+@media (max-width: 768px) {
+    .heading-one {
+        font-size: 32px;
+        text-align: center;
+    }
+    .about-discription { font-size: 17px; }
+
+    .navbar-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Mobile 480px */
+@media (max-width: 480px) {
+    .heading-one { font-size: 26px; }
+    .project-section h2 { font-size: 36px; }
+}

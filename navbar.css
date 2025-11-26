@@ -1,0 +1,50 @@
+/* ============================================================
+   🔹 NAVBAR
+============================================================ */
+.navbar {
+    width: 100%;
+    background-color: #7600BC;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-top {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-left {
+    color: white;
+}
+
+.navbar-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-email a,
+.navbar-contact a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pages {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}

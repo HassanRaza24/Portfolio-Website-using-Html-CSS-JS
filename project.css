@@ -1,0 +1,45 @@
+
+
+/* ============================================================
+   🔹 PROJECT SECTION
+============================================================ */
+.project-section {
+    max-width: 1300px;
+    width: 100%;
+    margin: 60px auto;
+    padding: 0 15px;
+}
+
+.project-section h2 {
+    color: #7600bc;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects {
+    background: #fcfcfc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.projects h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.projects li {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.projects hr {
+    margin-top: 20px;
+}
